@@ -1,0 +1,61 @@
+# ============================================================
+# ScholARA — Python Dependencies
+# ============================================================
+
+# Web Framework
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Database (SQLite ORM)
+sqlalchemy==2.0.28
+alembic==1.13.1
+
+# LangChain RAG stack
+langchain==0.1.12
+langchain-community==0.0.28
+langchain-core==0.1.32
+langgraph
+
+# LLM Providers (free/local)
+ollama==0.1.7
+
+# HuggingFace (optional fallback)
+transformers==4.38.2
+huggingface-hub==0.21.3
+
+# Embeddings
+sentence-transformers==2.5.1
+
+# Vector Database
+faiss-cpu==1.7.4
+
+# Document Parsing
+PyMuPDF==1.23.26        # PDF parsing (fitz)
+python-docx==1.1.0      # DOCX parsing
+
+# Utilities
+pydantic==2.6.3
+pydantic-settings==2.2.1
+email-validator>=2.0.0
+python-dotenv==1.0.1
+aiofiles==23.2.1
+httpx>=0.25.2,<0.26.0
+
+# Logging
+loguru==0.7.2
+
+# Text processing
+tiktoken==0.6.0
+nltk==3.8.1
+
+# PDF generation (chat export)
+reportlab==4.1.0
+
+# Dev / testing
+pytest==8.0.2
+pytest-asyncio==0.23.5
