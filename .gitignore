@@ -42,3 +42,8 @@ Thumbs.db
 .pytest_cache/
 htmlcov/
 .coverage
+# Hugging Face / AI model cache
+.hf/
+cache/
+models/
+*.safetensors
